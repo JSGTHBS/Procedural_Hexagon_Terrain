@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefe452a20120754f89e7b987c5dd67b, type: 3}
+  m_Name: Islands
+  m_EditorClassIdentifier: 
+  cylinderPrototypes:
+  - cylinderPrefabs:
+    - {fileID: -8818483195461676053, guid: dbb1477a77bc6c042ae48f6c8d693ec9, type: 3}
+    minHeight: 0
+    maxHeight: 0.4
+  - cylinderPrefabs:
+    - {fileID: -2914083775682185535, guid: cdff00d0db04a0249a5144ad7a4d82ea, type: 3}
+    minHeight: 0.4
+    maxHeight: 0.6
+  - cylinderPrefabs:
+    - {fileID: 8354446337833379053, guid: 64693a3977ad3a8499d51e8a56d3f772, type: 3}
+    minHeight: 0.6
+    maxHeight: 1
+  cylinderAlgorithm: 1
+  cylinderRandomParameters:
+    offset: 0
+    scaler: 1
+    smoothTimes: 0
+  cylinderPerlinParameters:
+    xOffset: 1000
+    xScaler: 0.1
+    yOffset: 1000
+    yScaler: 0.1
+    hOffset: 0
+    hScaler: 1
+  decorationPrototypes:
+  - decorationPrefabs:
+    - {fileID: -2433487246767757084, guid: f721ad64bc0c8e149b1d3155d0fb260b, type: 3}
+    minHeight: 0.6
+    maxHeight: 1
+    threshold: 0.8
+  decorationAlgorithm: 0
+  decorationRandomParameters:
+    offset: 0
+    scaler: 1
+    smoothTimes: 0
+  decorationPerlinParameters:
+    xOffset: 0
+    xScaler: 1
+    yOffset: 0
+    yScaler: 1
+    hOffset: 0
+    hScaler: 1
