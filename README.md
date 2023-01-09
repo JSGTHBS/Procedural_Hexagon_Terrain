@@ -1,5 +1,8 @@
 # Procedural Hexagon Terrain
 
+The Project is UPGRADING, it might not be usable currentnly!
+
+--------------------------------------------------
 It is very prototypal in its current form. For a demo, see Scenes/Sample Scene.
 
 ![Alt text](./Assets/Screenshots/Screenshot_01.png "Screenshot")
